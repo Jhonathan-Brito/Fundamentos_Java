@@ -33,8 +33,30 @@ public class ComandoCondicional {
 			System.out.println("Condição composta 2 - Número 1 é menor que número 2");
 		} else {
 			System.out.println("Condição composta 2 - Número 1 é igual ao número 2");
-		}		
+		}
 		
+		//comando condicional SWITCH
+		char opcao = '1';
+		switch (opcao) {
+		case '1': {
+			System.out.println("Chame progrma de Inclusão");
+			break;
+		}
+		case '2': {
+			System.out.println("Chame programa de Alteração");
+			break;
+		}
+		case '3': {
+			System.out.println("Chame programa de Exclusão");
+			break;
+		}
+		case '4': {
+			System.out.println("Chame programa de Consulta");
+			break;
+		}
+		
+		}
+			
 	}
 
 }
