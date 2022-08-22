@@ -5,9 +5,9 @@ public class Principal {
 		// TODO Auto-generated method stub
 		
 		Pessoa pes = new Pessoa();
-		pes.nomePessoa = "JOÃO DO NASCIMENTO";
-		pes.idadePessoa = 15;
-		pes.mostraDados(pes.nomePessoa, pes.idadePessoa);
+		pes.setNomePessoa("JOÃO DO NASCIMENTO");
+		pes.setIdadePessoa(15);
+		System.out.println(pes.toString());	
 
 	}
 
